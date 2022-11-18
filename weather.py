@@ -14,10 +14,8 @@ def convert_date(iso_string):
     
 
 def convert_f_to_c(temp_in_farenheit):
-    #temp_in_celcius = round((float(temp_in_farenheit) - 32) * 5/9, 1)
-    #return temp_in_celcius
-
-    return(round(float((temp_in_farenheit - 32) / 1.8), 1))
+    temp_in_celcius = round((float(temp_in_farenheit) - 32) * 5/9, 1)
+    return temp_in_celcius
 
 
 def calculate_mean(weather_data):
